@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.safehaven.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="com.example.safehaven.ui.sos.SosFragment"
+        android:label="@string/sos"
+        tools:layout="@layout/fragment_sos" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.safehaven.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:name="com.example.safehaven.ui.complaints.ComplaintsFragment"
+        android:label="@string/complaints"
+        tools:layout="@layout/fragment_complaints" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.safehaven.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:name="com.example.safehaven.ui.chat.ChatFragment"
+        android:label="@string/chatbot"
+        tools:layout="@layout/fragment_chat" />
 </navigation>
