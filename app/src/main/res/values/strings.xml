@@ -4,5 +4,10 @@
     <string name="sos">SOS</string>
     <string name="complaints">Complaints</string>
     <string name="chatbot">ChatBot</string>
+    <string name="go_to_chat">Go To Chat</string>
+    <string name="your_chat_is_loading">Your Chat is loading...</string>
+    <string name="audio_complaints">Audio Complaints</string>
+    <string name="video_complaints">Video Complaints</string>
+    <string name="picture_complaints">Picture Complaints</string>
 
 </resources>

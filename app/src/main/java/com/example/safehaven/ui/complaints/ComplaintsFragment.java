@@ -23,13 +23,6 @@ public class ComplaintsFragment extends Fragment {
         complaintsViewModel =
                 ViewModelProviders.of(this).get(ComplaintsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_complaints, container, false);
-        final TextView textView = root.findViewById(R.id.text_dashboard);
-        complaintsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
         return root;
     }
 }
